@@ -15,7 +15,7 @@ Due to [IDEA-119280](https://youtrack.jetbrains.com/issue/IDEA-119280), it is a 
 3. Navigate to **File > Settings... > Build, Execution, Deployment > Compiler**.
 4. Uncheck `Clear output directory on rebuild`.
 5. Navigate to **File > Settings... > Build, Execution, Deployment > Compiler > Java Compiler**.
-6. Uncheck `--Use 'release' option for cross-compilation`.
+6. Uncheck `Use '--release' option for cross-compilation`.
 7. Click "OK" to store the preferences and close the dialog.
 8. **Build > Build Project** (<kbd>Ctrl</kbd>+<kbd>F9</kbd>)
 9. Open the project view (<kbd>Alt</kbd>+<kbd>1</kbd>, on macOS <kbd>cmd</kbd>+<kbd>1</kbd>)
@@ -23,7 +23,7 @@ Due to [IDEA-119280](https://youtrack.jetbrains.com/issue/IDEA-119280), it is a 
     1. Navigate to the folder `build/resources/main`
     1. Right click -> "Open In" -> "Explorer (Finder on macOS)"
     1. Navigate into directory "main"
-    1. Select the folder `out/production/classes`
+    1. Navigate to the folder `out/production/classes`
     1. Right click -> "Open In" -> "Explorer (Finder on macOS)"
     1. Navigate into directory "classes"
     1. Now you have two Explorer windows opened. Copy all files and directories from the first one to the second one.
@@ -34,8 +34,8 @@ Due to [IDEA-119280](https://youtrack.jetbrains.com/issue/IDEA-119280), it is a 
    </figure>
 12. Click on the green play button next to the `main` method to create a Launch configuration. IntelliJ will fail in launching.
    <figure>
-     <img src="intellij-hover-on-play-button.png" alt="However on green play">
-     <figcaption>However on green play</figcaption>
+     <img src="intellij-click-on-play-button.png" alt="Click on green play">
+     <figcaption>Click on green play</figcaption>
    </figure>
 
    <figure>
@@ -43,7 +43,11 @@ Due to [IDEA-119280](https://youtrack.jetbrains.com/issue/IDEA-119280), it is a 
      <figcaption>Run JabRef via launcher</figcaption>
    </figure>
 
-13. On the top right of the IntelliJ window, next to the newly created launch configuration, click on the drop down
+13. On the top right of the IntelliJ window, next to the newly created launch configuration, click on the drop-down
+   <figure>
+     <img src="intellij-click-on-drop-down.png" alt="Click on drop-down">
+     <figcaption>Click on drop-down</figcaption>
+   </figure>
 14. Click on "Edit Configurations..."
 15. On the right, click on "Modify options"
 16. Ensure that "Use classpath of module" is checked
